@@ -2,70 +2,143 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>Armat</title>
+  <title>Armat — Танцевальная школа</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <!-- ШАПКА -->
-  <header class="header">
-    <div class="header-inner">
+<!-- ШАПКА -->
+<header class="header">
+  <div class="header-inner">
+    <div class="logo">Armat</div>
 
-      <div class="logo">Dance School</div>
+    <nav class="nav">
+      <a href="#about">О школе</a>
+      <a href="#choreographers">Хореографы</a>
+      <a href="#gallery">Галерея</a>
+      <a href="#schedule">Расписание</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
 
-      <nav class="nav">
-        <a href="#about">О школе</a>
-        <a href="#teachers">Хореографы</a>
-        <a href="#contacts">Контакты</a>
-      </nav>
-
-      <div class="burger">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-
+    <div class="burger">
+      <span></span>
+      <span></span>
+      <span></span>
     </div>
-  </header>
+  </div>
+</header>
 
-  <main>
+<main>
 
-    <!-- ГЛАВНЫЙ ЭКРАН -->
-    <section class="hero">
-      <div class="hero-content">
-        <h1>Танцевальная школа ARMAT</h1>
-        <p>Для детей и взрослых · Современные направления</p>
-        <a href="#contacts" class="hero-button">Записаться</a>
-      </div>
-    </section>
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>Танцевальная школа Armat</h1>
+    <p>Армянские народные танцы · Для детей и взрослых</p>
+    <a href="https://t.me/USERNAME" class="hero-button" target="_blank">
+      Записаться
+    </a>
+  </div>
+</section>
 
-    <!-- О ШКОЛЕ -->
-    <section id="about">
-      <h2>О школе</h2>
-      <p>Современная танцевальная школа для детей и взрослых.</p>
-    </section>
+<!-- О ШКОЛЕ -->
+<section id="about" class="about-hero">
+  <div class="about-overlay">
+    <h2>О школе</h2>
+    <p>
+      Танцевальная школа <strong>Armat</strong> — это место, где дети и взрослые
+      изучают армянские народные танцы, развивают грацию, координацию и чувство ритма.
+      Мы бережно сохраняем традиции и делаем занятия современными и увлекательными.
+    </p>
+    <p>
+      Наши ученики участвуют в выступлениях, фестивалях и культурных мероприятиях.
+    </p>
+  </div>
+</section>
 
-    <!-- ХОРЕОГРАФЫ -->
-    <section id="teachers">
-      <h2>Хореографы</h2>
-      <div class="teacher">
-        <h3>Анна Иванова</h3>
-        <p>Hip-Hop, Jazz-Funk</p>
-      </div>
-    </section>
+<!-- ХОРЕОГРАФЫ -->
+<section id="choreographers">
+  <h2>Наши хореографы</h2>
 
-    <!-- КОНТАКТЫ -->
-    <section id="contacts">
-      <h2>Контакты</h2>
-      <p>Телефон: +7 XXX XXX-XX-XX</p>
-      <p>Instagram: @dance_school</p>
-    </section>
+  <div class="choreographers-container">
+    <div class="choreographer-card">
+      <img src="images/choreographer1.jpeg">
+      <h3>Анаит Мартиросян</h3>
+      <p>Преподаватель армянских народных танцев, более 10 лет опыта.</p>
+    </div>
 
-  </main>
+    <div class="choreographer-card">
+      <img src="images/choreographer2.jpeg">
+      <h3>Артур Мкртчян</h3>
+      <p>Хореограф-постановщик, работа с детьми и взрослыми.</p>
+    </div>
 
-  <script src="js/main.js"></script>
+    <div class="choreographer-card">
+      <img src="images/choreographer3.jpeg">
+      <h3>Мария Петросян</h3>
+      <p>Подготовка к выступлениям и фестивалям.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ФОТОГАЛЕРЕЯ -->
+<section id="gallery">
+  <h2>Фотогалерея</h2>
+
+  <div class="gallery-grid">
+    <img src="images/gallery1.jpeg">
+    <img src="images/gallery2.jpeg">
+    <img src="images/gallery3.jpeg">
+    <img src="images/gallery4.jpeg">
+    <img src="images/gallery5.jpeg">
+    <img src="images/gallery6.jpeg">
+  </div>
+</section>
+
+<!-- РАСПИСАНИЕ -->
+<section id="schedule">
+  <h2>Расписание занятий</h2>
+
+  <div class="schedule-container">
+    <div class="schedule-card">
+      <h3>Понедельник</h3>
+      <p>18:00 — дети</p>
+      <p>19:30 — взрослые</p>
+    </div>
+
+    <div class="schedule-card">
+      <h3>Среда</h3>
+      <p>18:00 — дети</p>
+      <p>19:30 — взрослые</p>
+    </div>
+
+    <div class="schedule-card">
+      <h3>Суббота</h3>
+      <p>12:00 — дети</p>
+      <p>14:00 — взрослые</p>
+    </div>
+  </div>
+</section>
+
+<!-- КОНТАКТЫ -->
+<section id="contacts">
+  <h2>Контакты</h2>
+
+  <p>Телефон: +7 XXX XXX-XX-XX</p>
+  <p>Telegram: <a href="https://t.me/USERNAME" target="_blank">@USERNAME</a></p>
+  <p>Адрес: Россия, Москва, Кремль</p>
+
+  <div class="map-container">
+    <iframe
+      src="https://yandex.ru/map-widget/v1/?ll=37.617635%2C55.755814&z=16"
+      width="100%" height="300" frameborder="0">
+    </iframe>
+  </div>
+</section>
+
+</main>
+
+<script src="js/main.js"></script>
 </body>
-
 </html>
-
